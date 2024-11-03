@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b5b5dd761a9374a959ae3834745460, type: 3}
+  m_Name: gun_escopeta
+  m_EditorClassIdentifier: 
+  gunName: escop
+  gunId: 1
+  damage: 20
+  gunPrefab: {fileID: 7721991387868090623, guid: 9c47f29cce9dcc842b6a43fd889b5609,
+    type: 3}
