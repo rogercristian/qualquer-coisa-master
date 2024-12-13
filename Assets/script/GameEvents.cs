@@ -10,4 +10,8 @@ public static class GameEvents
 
     public static event Action OnSetMove;
     public static void SetMove() => OnSetMove?.Invoke();
+
+    public static event Action OnSpawner;
+
+    public static void Spawner() => OnSpawner?.Invoke();
 }

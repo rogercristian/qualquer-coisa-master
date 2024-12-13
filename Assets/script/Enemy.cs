@@ -9,8 +9,16 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float timeBetweenAttack = 1f;
     private float currentTimeAttack;
     [SerializeField] Transform attackPoint;
+  
+   // bool interact = false;
 
+    private void Awake()
+    {
+      
+        
+    }
 
+   
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +33,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // if (!interact) return;
         Attack();
 
         Debug.DrawRay(attackPoint.position, Vector3.forward,Color.red,range);
